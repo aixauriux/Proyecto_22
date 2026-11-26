@@ -1,0 +1,53 @@
+
+[
+    {
+        "pregunta": "¿Qué utilizan las nutrias marinas para abrir conchas?",
+        "opciones": [
+            "Sus dientes",
+            "Piedras",
+            "Sus colas",
+            "Hojas"
+        ],
+        "correcta": 1
+    },
+    {
+        "pregunta": "¿Dónde viven las nutrias marinas?",
+        "opciones": [
+            "En el desierto",
+            "En los árboles",
+            "En el océano",
+            "En las montañas"
+        ],
+        "correcta": 2
+    },
+    {
+        "pregunta": "¿Qué tipo de animales son las nutrias?",
+        "opciones": [
+            "Mamíferos",
+            "Reptiles",
+            "Aves",
+            "Peces"
+        ],
+        "correcta": 0
+    },
+    {
+        "pregunta": "¿Qué hacen algunas nutrias marinas al descansar?",
+        "opciones": [
+            "Construyen nidos",
+            "Vuelan",
+            "Se entierran",
+            "Flotan boca arriba"
+        ],
+        "correcta": 3
+    },
+    {
+        "pregunta": "¿Qué ayuda a las nutrias marinas a conservar el calor?",
+        "opciones": [
+            "Las escamas",
+            "Su pelaje denso",
+            "Las plumas",
+            "Su caparazón"
+        ],
+        "correcta": 1
+    }
+]

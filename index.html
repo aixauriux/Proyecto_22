@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Nutrias</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <main>
+        <h1>🦦 Quiz de Nutrias</h1>
+
+        <!-- Pantalla de inicio -->
+        <section id="inicio">
+            <h2>¿Cuánto sabes sobre las nutrias?</h2>
+            <p>
+                Responde 5 preguntas y descubre
+                cuánto sabes sobre estos animales.
+            </p>
+            <p>¡Cada respuesta correcta vale 1 punto!</p>
+            <button id="comenzar">Comenzar quiz 💜</button>
+        </section>
+
+        <!-- Pantalla de preguntas -->
+        <section id="quiz" hidden>
+            <p id="progreso"></p>
+            <p id="tiempo"></p>
+            <h2 id="pregunta"></h2>
+
+            <section id="opciones"></section>
+
+            <p id="mensaje" aria-live="polite"></p>
+            <p id="puntuacion"></p>
+
+            <button id="siguiente" hidden>
+                Siguiente pregunta →
+            </button>
+        </section>
+
+        <!-- Pantalla de resultados -->
+        <section id="resultados" hidden>
+            <h2>🎉 ¡Quiz terminado!</h2>
+            <h3 id="resultadoFinal"></h3>
+            <p>Estas fueron tus respuestas:</p>
+
+            <section id="resumen"></section>
+
+            <button id="reiniciar">Volver a jugar 🦦</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
